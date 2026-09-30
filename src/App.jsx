@@ -3,7 +3,7 @@ import NavBar from './components/NavBar'
 import Home from './pages/Home'
 import Meals from './pages/Meals'
 import Tips from './pages/Tips'
-import About from './pages/about'
+import About from './pages/About'
 import './App.scss'
 
 
