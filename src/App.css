@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+:root {
+    --brand: #3a6f43;
+    --brand2: #8eb486;
+    --brown: #685752;
+    --point: #cd5c08;
+    --cream: #fff5e4;
+    --white: #fff;
+    --radius: 16px;
+    --shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.wrap {
+    min-height: 100vh;
+}
+
+.container {
+    width: min(1100px, 100%);
+    margin: 0 auto;
+    background: var(--white);
+}
+
+header {
+    background: var(--white);
+}
+
+header .top-area {
+    display: flex;
+    justify-content: center;
+    padding: 12px 20px;
+}
+
+.top-area .logo a {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.top-area .logo img {
+    width: 58px;
+    margin-right: 12px;
+}
+
+.top-area .logo span:nth-child(2) {
+    color: var(--brand);
+    font-weight: 700;
+    margin-right: 3px;
+    letter-spacing: -0.5px;
+}
+
+.top-area .logo span:last-child {
+    color: var(--point);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+/* sass 로 이동 ->  */
