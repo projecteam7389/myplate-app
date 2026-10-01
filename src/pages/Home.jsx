@@ -30,7 +30,7 @@ function Home() {
           </p>
         </div>
         <div className="recomArea">
-          <h2>오늘의 PICK</h2>
+          <h2>오늘의 PICK !</h2>
           <div className="card-grid">
             {
               recs.map((item) => <MealCard key={item.id} item={item} />)
